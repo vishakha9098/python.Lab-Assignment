@@ -1,0 +1,18 @@
+a = 5  
+print("The type of a", type(a))  
+  
+b = 40.5  
+print("The type of b", type(b))  
+  
+c = 1+3j  
+print("The type of c", type(c))  
+print(" c is a complex number", isinstance(1+3j,complex))  
+
+# create a set named student_id
+student_id = {112, 114, 116, 118, 115}
+
+# display student_id elements
+print(student_id)
+
+# display type of student_id
+print(type(student_id))
